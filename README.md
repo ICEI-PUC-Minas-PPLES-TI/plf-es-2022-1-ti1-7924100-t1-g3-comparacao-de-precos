@@ -110,3 +110,7 @@ Miro - Organização de ideias
 
 ### Ferramentas de Gerência de Versões
 Github
+
+### Comunicação do Grupo
+Whatsapp - Para discussões rápidas
+Discord - Para reuniões online
