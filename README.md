@@ -29,25 +29,29 @@ Documentação realizada no processo da sprint 1
 
 ## Documentação do Contexto
 <!-- Deve arbordar: Problema, Objetivos, Justificativa, Público alvo -->
+- **Problema:** Encontrar o melhor preço do mesmo produto em diferentes lojas
+- **Objetivos:** Facilitar a pesquisa do usuário para achar o produto de forma fácil e rápido e com melhor preço
+- **Justificativa:** Muitas lojas oferecem produtos com descontos falsos e preços abusivos
+- **Público alvo:** Qualquer pessoa que usa a internet para fazer compras online
 
 ## Processo de  Design Thinking
 ### Persona: Antônio
-Idade: 40 anos
-Hobby: 
-Trabalho: 
-Personalidade:
-Sonhos: 
-Objetivo e lugares: 
-Objetivos chave:
+- **Idade:** 40 anos
+- **Hobby:** 
+- **Trabalho:** 
+- **Personalidade:**
+- **Sonhos:** 
+- **Objetivo e lugares:** 
+- **Objetivos chave:**
 
 ### Persona: Mateus
-Idade: 22 anos
-Hobby: 
-Trabalho: 
-Personalidade:
-Sonhos: 
-Objetivo e lugares: 
-Objetivos chave:
+- **Idade:** 22 anos
+- **Hobby:** 
+- **Trabalho:** 
+- **Personalidade:** 
+- **Sonhos:** 
+- **Objetivo e lugares:** 
+- **Objetivos chave:** 
 
 ### Histórias de usuários:
 Eu como uma pessoa que faço compras pela internet, desejo saber sobre as promoções antes de realizar uma compra, para não ser enganado com descontos falsos.
@@ -55,12 +59,18 @@ Eu como uma pessoa que faço compras pela internet, desejo saber sobre as promo�
 Eu como uma pessoa que uso bastante o cartão de crédito para compras na internet, preciso saber as melhores promoções com milhas para viajar no fim do ano.
 
 ### Requisitos funcionais
-<!-- Exemplo / 2 por aluno -->
+<!-- 2 por aluno -->
+* Ter uma categoria de produtos em destaque: Vitor Lany
+* O menu deve apresentar um botão para entrar no grupo de descontos: Vitor Lany
+
 * Requisito: Aluno
 * Requisito: Aluno
 
 ### Requisitos não funcionais
-<!-- Exemplo / 2 por aluno -->
+<!-- 2 por aluno -->
+* Essa categoria de destaque deve mostrar os produtos da semana: Vitor Lany
+* O botão do grupo de descontos deve ficar inativo quando o grupo estiver cheio: Vitor Lany
+
 * Requisito: Aluno
 * Requisito: Aluno
 
@@ -76,6 +86,9 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 
 ## Metodologia - Gestão do projeto
 
-###Ferramentas de Gerência de Projeto
+### Ferramentas de Gerência de Projeto
 Trello - Para tarefas
 Miro - Organização de ideias
+
+### Ferramentas de Gerência de Versões
+Github
