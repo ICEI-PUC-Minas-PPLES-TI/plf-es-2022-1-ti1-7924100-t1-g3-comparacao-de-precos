@@ -6,7 +6,7 @@ O objetivo do nosso projeto é auxiliar as pessoas em pesquisas de preços onlin
 ## Curso
 Engenharia de Software
 
-## Alunos integrantes da equipe
+## Alunos integrantes da Equipe
 
 * André Eller Pereira Mendonça
 * Gabriel Peçanha Santiago
@@ -15,7 +15,7 @@ Engenharia de Software
 * Pedro Henrique Baroni Neves
 * Vitor Lany Freitas Ferreira
 
-## Professores responsáveis
+## Professores Responsáveis
 
 * Felipe Augusto Lara Soares
 * Johnatan Alves de Oliveira
@@ -26,7 +26,8 @@ Engenharia de Software
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
-  - [Participantes](#participantes)
+  - [Alunos Integrantes da Equipe](#alunos-integrantes-da-equipe)
+  - [Professores Responsáveis](#professores-responsáveis)
 - [Estrutura do Documento](#estrutura-do-documento)
 - [Introdução](#introdução)
   - [Problema](#problema)
