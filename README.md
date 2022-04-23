@@ -69,16 +69,28 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 * O usuário deve fazer um cadastro no site: Gabriel Santiago
 * O site deve conter o status de um pedido: Gabriel Santiago
 
+* Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido: Henrique Diniz
+* Os destaques deve mostrar os produtos da semana: Henrique Diniz
+
+
+
+
+
 ### Requisitos não funcionais
 <!-- 2 por aluno -->
-* Os destaques deve mostrar os produtos da semana: Vitor Lany
+* O site deve ficar disponível 99% do tempo: Vitor Lany
 * Se o grupo de descontos estiver cheio deve ficar inacessivel: Vitor Lany
 
-* Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido: Gustavo Andrade
+* O site deve ter suporte a língua portuguesa: Gustavo Andrade
 * O filtro de preços deve ter a possibilidade de olhar por ordem crescente e decrescente: Gustavo Andrade
 
 * O site deve ser compatível com celular: Gabriel Santiago
 * O site deve ser compatível com tablet: Gabriel Santiago
+
+* O site deve ser compatível com os navegadores: Chrome, Opera GX e Edge: Henrique Diniz
+* O site deve ser feito com as ferramentas HTML, CSS e JavaScript: Henrique Diniz 
+
+
 
 ## Especificações do Projeto
 <!-- Relação das histórias de usuários, requisitos funcionais, requisitos não funcionais e restrições do projeto. -->
