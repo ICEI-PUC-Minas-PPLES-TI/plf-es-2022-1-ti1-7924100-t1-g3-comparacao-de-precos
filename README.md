@@ -149,8 +149,7 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 
 ## Ferramentas
 ### Ferramentas de Gerência de Projeto
-Trello - Para tarefas
-Miro - Organização de ideias
+Trello - Para tarefas                                                                                                                                                    Miro - Organização de ideias
 
 ### Ferramentas de Gerência de Versões
 Github
