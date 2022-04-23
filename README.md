@@ -61,6 +61,23 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 
 ## Requisitos
 ### Requisitos funcionais
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Ter uma categoria de produtos em destaque | ALTA | 
+|RF-002| O menu deve apresentar um botão para entrar no grupo de descontos   | MÉDIA |
+|RF-003| O sistema deve mostrar o produto pesquisado de diferentes lojas online   | MÉDIA |
+|RF-004| O sistema deve ter um filtro de produtos por preço   | MÉDIA |
+|RF-005| O usuário deve fazer um cadastro no site   | MÉDIA |
+|RF-006| O site deve conter o status de um pedido   | MÉDIA |
+|RF-007| Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido   | MÉDIA |
+|RF-008| Os destaques deve mostrar os produtos da semana   | MÉDIA |
+|RF-009| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-010| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-011| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-012| Emitir um relatório de tarefas no mês   | MÉDIA |
+
+
 <!-- 2 por aluno -->
 * Ter uma categoria de produtos em destaque: Vitor Lany
 * O menu deve apresentar um botão para entrar no grupo de descontos: Vitor Lany
