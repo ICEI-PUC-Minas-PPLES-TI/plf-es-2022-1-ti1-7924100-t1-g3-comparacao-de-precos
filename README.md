@@ -1,6 +1,10 @@
 <!--- [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7564031&assignment_repo_type=AssignmentRepo) -->
-# Best Option
+# Informações do Projeto
+## Best Option
 O objetivo do nosso projeto é auxiliar as pessoas em pesquisas de preços online antes de realizar uma compra.
+
+## Curso
+Engenharia de Software
 
 ## Alunos integrantes da equipe
 
@@ -18,13 +22,6 @@ O objetivo do nosso projeto é auxiliar as pessoas em pesquisas de preços onlin
 * Rommel Vieira Carneiro
 * Roberto Felipe Dias Ferreira da Rocha
 * Simone de Assis Alves da Silva
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-# Documentação
-Documentação realizada no processo da sprint 1
 
 # Introdução
 <!-- Deve arbordar: Problema, Objetivos, Justificativa, Público alvo -->
