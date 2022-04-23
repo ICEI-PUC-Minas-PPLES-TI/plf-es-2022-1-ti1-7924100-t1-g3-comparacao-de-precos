@@ -72,10 +72,10 @@ Engenharia de Software
 ## Personas e Mapas de Empatia
 ### Persona: Antônio
 - **Idade:** 40 anos
-- **Hobby:** 
-- **Trabalho:** 
-- **Personalidade:**
-- **Sonhos:** 
+- **Hobby:** Sair com amigos ou família 
+- **Trabalho:** Gerente
+- **Personalidade:** Homem de família, gosta de passear com os filhos
+- **Sonhos:** Viajar para a Europa
 - **Objetivo e lugares:** 
 - **Objetivos chave:**
 
@@ -149,14 +149,14 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 
 ## Ferramentas
 ### Ferramentas de Gerência de Projeto
-Trello - Para tarefas                                                                                                                                                    Miro - Organização de ideias
+> Trello - Para tarefas
+> Miro - Organização de ideias
 
 ### Ferramentas de Gerência de Versões
-Github
+> Github
 
 ### Comunicação do Grupo
-Whatsapp - Para discussões rápidas
-
-Discord - Para reuniões online
+> Whatsapp - Para discussões rápidas
+> Discord - Para reuniões online
 
 ## Controle de Versão
