@@ -63,6 +63,9 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 * Ter uma categoria de produtos em destaque: Vitor Lany
 * O menu deve apresentar um botão para entrar no grupo de descontos: Vitor Lany
 
+* O sistema deve mostrar o produto pesquisado de diferentes lojas online: Gustavo Andrade
+* O sistema deve ter um filtro de produtos por preço: Gustavo Andrade
+
 * Requisito: Aluno
 * Requisito: Aluno
 
@@ -70,6 +73,9 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 <!-- 2 por aluno -->
 * Os destaques deve mostrar os produtos da semana: Vitor Lany
 * Se o grupo de descontos estiver cheio deve ficar inacessivel: Vitor Lany
+
+* Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido: Gustavo Andrade
+* O filtro de preços deve ter a possibilidade de olhar por ordem crescente e decrescente: Gustavo Andrade
 
 * Requisito: Aluno
 * Requisito: Aluno
