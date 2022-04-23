@@ -13,7 +13,6 @@ O objetivo do nosso projeto é auxiliar as pessoas em pesquisas de preços onlin
 
 ## Professores responsáveis
 
-
 * Felipe Augusto Lara Soares
 * Johnatan Alves de Oliveira
 * Rommel Vieira Carneiro
@@ -28,17 +27,21 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 Documentação realizada no processo da sprint 1
 
 # Introdução
+<!-- Deve arbordar: Problema, Objetivos, Justificativa, Público alvo -->
 
 ## Problema
 
 > Existe uma variedade de preços em um mesmo produto que é vendido por diferentes lojas, fazendo com que o consumidor acabe pagando mais caro sem necessidade
 
+## Objetivos
 
-<!-- Deve arbordar: Problema, Objetivos, Justificativa, Público alvo -->
-- **Problema:** Encontrar o melhor preço do mesmo produto em diferentes lojas
-- **Objetivos:** Facilitar a pesquisa do usuário para achar o produto de forma fácil e rápido e com melhor preço
-- **Justificativa:** Muitas lojas oferecem produtos com descontos falsos e preços abusivos
-- **Público alvo:** Qualquer pessoa que usa a internet para fazer compras online
+> Criar um site que tenha a função de facilitar a pesquisa do usuário para achar o produto de forma fácil e rápido e com melhor preço
+
+## Justificativa
+
+> Além dos diferentes preços, muitas lojas oferecem produtos com descontos falsos e preços abusivos
+
+## Público alvo
 
 # Especificações do Projeto
 ## Personas e Mapas de Empatia
