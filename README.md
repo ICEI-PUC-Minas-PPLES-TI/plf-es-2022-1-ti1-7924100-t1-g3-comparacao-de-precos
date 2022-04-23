@@ -34,7 +34,8 @@ Documentação realizada no processo da sprint 1
 - **Justificativa:** Muitas lojas oferecem produtos com descontos falsos e preços abusivos
 - **Público alvo:** Qualquer pessoa que usa a internet para fazer compras online
 
-## Processo de  Design Thinking
+# Especificações do Projeto
+## Personas e Mapas de Empatia
 ### Persona: Antônio
 - **Idade:** 40 anos
 - **Hobby:** 
@@ -53,11 +54,12 @@ Documentação realizada no processo da sprint 1
 - **Objetivo e lugares:** 
 - **Objetivos chave:** 
 
-### Histórias de usuários:
+## Histórias de usuários:
 Eu como uma pessoa que faço compras pela internet, desejo saber sobre as promoções antes de realizar uma compra, para não ser enganado com descontos falsos.
 
 Eu como uma pessoa que uso bastante o cartão de crédito para compras na internet, preciso saber as melhores promoções com milhas para viajar no fim do ano.
 
+## Requisitos
 ### Requisitos funcionais
 <!-- 2 por aluno -->
 * Ter uma categoria de produtos em destaque: Vitor Lany
@@ -90,20 +92,20 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 * O site deve ser compatível com os navegadores: Chrome, Opera GX e Edge: Henrique Diniz
 * O site deve ser feito com as ferramentas HTML, CSS e JavaScript: Henrique Diniz 
 
+## Restrições
 
-
-## Especificações do Projeto
-<!-- Relação das histórias de usuários, requisitos funcionais, requisitos não funcionais e restrições do projeto. -->
-
-## Projeto de Interface
-### Wireframe
+# Projeto de Interface
+## Wireframe
 ![wireframe](https://media.discordapp.net/attachments/961281775273902132/966054615944675408/unknown.png?width=572&height=467)
 
-### Fluxo de usuário
+## Fluxo de usuário
 ![userflow](https://media.discordapp.net/attachments/961281775273902132/967047071477678110/unknown.png)
 
-## Metodologia - Gestão do projeto
+# Metodologia - Gestão do projeto
 
+## Divisão de Papéis 
+
+## Ferramentas
 ### Ferramentas de Gerência de Projeto
 Trello - Para tarefas
 Miro - Organização de ideias
