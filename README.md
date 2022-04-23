@@ -27,7 +27,13 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Documentação
 Documentação realizada no processo da sprint 1
 
-## Documentação do Contexto
+# Introdução
+
+## Problema
+
+> Existe uma variedade de preços em um mesmo produto que é vendido por diferentes lojas, fazendo com que o consumidor acabe pagando mais caro sem necessidade
+
+
 <!-- Deve arbordar: Problema, Objetivos, Justificativa, Público alvo -->
 - **Problema:** Encontrar o melhor preço do mesmo produto em diferentes lojas
 - **Objetivos:** Facilitar a pesquisa do usuário para achar o produto de forma fácil e rápido e com melhor preço
