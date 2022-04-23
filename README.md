@@ -157,6 +157,7 @@ Github
 
 ### Comunicação do Grupo
 Whatsapp - Para discussões rápidas
+
 Discord - Para reuniões online
 
 ## Controle de Versão
