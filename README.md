@@ -66,6 +66,8 @@ Engenharia de Software
 
 ## Público alvo
 
+> Qualquer pessoa que usa a internet para fazer compras online
+
 # Especificações do Projeto
 ## Personas e Mapas de Empatia
 ### Persona: Antônio
@@ -104,9 +106,9 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 |RF-006| O site deve conter o status de um pedido   | MÉDIA |
 |RF-007| Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido   | MÉDIA |
 |RF-008| Os destaques deve mostrar os produtos da semana   | MÉDIA |
-|RF-009| xxxxxxxxxx  | MÉDIA |
-|RF-010| xxxxxx   | MÉDIA |
-|RF-011| xxxxxxx   | MÉDIA |
+|RF-009| Colocar cards com a foto e o nome do produto  | MÉDIA |
+|RF-010| Filtro para determinar se deve mostrar produtos com cash back e milhas   | MÉDIA |
+|RF-011| Barra de pesquisa para procurar algum determinado produto  | MÉDIA |
 |RF-012| xxxxxxxx   | MÉDIA |
 
 ### Requisitos não funcionais
@@ -121,7 +123,7 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 |RNF-006| O site deve ser compatível com tablet |  BAIXA | 
 |RNF-007| O site deve ser compatível com os navegadores |  BAIXA | 
 |RNF-008| O site deve ser feito com as ferramentas HTML, CSS e JavaScript |  BAIXA | 
-|RNF-009| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-009| O site deve armazenar o CEP de um usuário cadastrado |  BAIXA | 
 |RNF-010| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-011| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 |RNF-012| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
