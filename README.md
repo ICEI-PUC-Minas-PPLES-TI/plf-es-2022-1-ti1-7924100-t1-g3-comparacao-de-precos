@@ -72,42 +72,27 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 |RF-006| O site deve conter o status de um pedido   | MÉDIA |
 |RF-007| Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido   | MÉDIA |
 |RF-008| Os destaques deve mostrar os produtos da semana   | MÉDIA |
-|RF-009| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-010| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-011| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-012| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-<!-- 2 por aluno -->
-* Ter uma categoria de produtos em destaque: Vitor Lany
-* O menu deve apresentar um botão para entrar no grupo de descontos: Vitor Lany
-
-* O sistema deve mostrar o produto pesquisado de diferentes lojas online: Gustavo Andrade
-* O sistema deve ter um filtro de produtos por preço: Gustavo Andrade
-
-* O usuário deve fazer um cadastro no site: Gabriel Santiago
-* O site deve conter o status de um pedido: Gabriel Santiago
-
-* Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido: Henrique Diniz
-* Os destaques deve mostrar os produtos da semana: Henrique Diniz
-
-
-
-
+|RF-009| xxxxxxxxxx  | MÉDIA |
+|RF-010| xxxxxx   | MÉDIA |
+|RF-011| xxxxxxx   | MÉDIA |
+|RF-012| xxxxxxxx   | MÉDIA |
 
 ### Requisitos não funcionais
-<!-- 2 por aluno -->
-* O site deve ficar disponível 99% do tempo: Vitor Lany
-* Se o grupo de descontos estiver cheio deve ficar inacessivel: Vitor Lany
 
-* O site deve ter suporte a língua portuguesa: Gustavo Andrade
-* O filtro de preços deve ter a possibilidade de olhar por ordem crescente e decrescente: Gustavo Andrade
-
-* O site deve ser compatível com celular: Gabriel Santiago
-* O site deve ser compatível com tablet: Gabriel Santiago
-
-* O site deve ser compatível com os navegadores: Chrome, Opera GX e Edge: Henrique Diniz
-* O site deve ser feito com as ferramentas HTML, CSS e JavaScript: Henrique Diniz 
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-001| O site deve ficar disponível 99% do tempo | MÉDIA | 
+|RNF-002| Se o grupo de descontos estiver cheio deve ficar inacessivel |  BAIXA | 
+|RNF-003| O site deve ter suporte a língua portuguesa |  BAIXA | 
+|RNF-004| O filtro de preços deve ter a possibilidade de olhar por ordem crescente e decrescente |  BAIXA | 
+|RNF-005| O site deve ser compatível com celular |  BAIXA | 
+|RNF-006| O site deve ser compatível com tablet |  BAIXA | 
+|RNF-007| O site deve ser compatível com os navegadores |  BAIXA | 
+|RNF-008| O site deve ser feito com as ferramentas HTML, CSS e JavaScript |  BAIXA | 
+|RNF-009| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-010| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-011| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-012| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 ## Restrições
 
