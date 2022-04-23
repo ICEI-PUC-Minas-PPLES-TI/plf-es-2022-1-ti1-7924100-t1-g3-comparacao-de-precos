@@ -68,8 +68,8 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 
 ### Requisitos não funcionais
 <!-- 2 por aluno -->
-* Essa categoria de destaque deve mostrar os produtos da semana: Vitor Lany
-* O botão do grupo de descontos deve ficar inativo quando o grupo estiver cheio: Vitor Lany
+* Os destaques deve mostrar os produtos da semana: Vitor Lany
+* Se o grupo de descontos estiver cheio deve ficar inacessivel: Vitor Lany
 
 * Requisito: Aluno
 * Requisito: Aluno
