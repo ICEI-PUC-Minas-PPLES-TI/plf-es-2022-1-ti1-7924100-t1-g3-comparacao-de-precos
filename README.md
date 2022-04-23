@@ -23,6 +23,31 @@ Engenharia de Software
 * Roberto Felipe Dias Ferreira da Rocha
 * Simone de Assis Alves da Silva
 
+# Estrutura do Documento
+
+- [Informações do Projeto](#informações-do-projeto)
+  - [Participantes](#participantes)
+- [Estrutura do Documento](#estrutura-do-documento)
+- [Introdução](#introdução)
+  - [Problema](#problema)
+  - [Objetivos](#objetivos)
+  - [Justificativa](#justificativa)
+  - [Público-Alvo](#público-alvo)
+- [Especificações do Projeto](#especificações-do-projeto)
+  - [Personas e Mapas de Empatia](#personas-e-mapas-de-empatia)
+  - [Histórias de Usuários](#histórias-de-usuários)
+  - [Requisitos](#requisitos)
+    - [Requisitos Funcionais](#requisitos-funcionais)
+    - [Requisitos não Funcionais](#requisitos-não-funcionais)
+  - [Restrições](#restrições)
+- [Projeto de Interface](#projeto-de-interface)
+  - [User Flow](#user-flow)
+  - [Wireframes](#wireframes)
+- [Metodologia](#metodologia)
+  - [Divisão de Papéis](#divisão-de-papéis)
+  - [Ferramentas](#ferramentas)
+  - [Controle de Versão](#controle-de-versão)
+
 # Introdução
 <!-- Deve arbordar: Problema, Objetivos, Justificativa, Público alvo -->
 
@@ -102,6 +127,12 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 
 ## Restrições
 
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre |
+|02| Não pode ser desenvolvido um módulo de backend        |
+|03| Não trabalhar com produtos de supermercado            |
+
 # Projeto de Interface
 ## Wireframe
 ![wireframe](https://media.discordapp.net/attachments/961281775273902132/966054615944675408/unknown.png?width=572&height=467)
@@ -124,3 +155,5 @@ Github
 ### Comunicação do Grupo
 Whatsapp - Para discussões rápidas
 Discord - Para reuniões online
+
+## Controle de Versão
