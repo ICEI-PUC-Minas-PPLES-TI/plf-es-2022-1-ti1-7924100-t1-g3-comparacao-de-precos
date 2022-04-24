@@ -163,7 +163,7 @@ Eu, como Mateus, faço compras pela internet e desejo saber sobre as promoções
 * Gustavo Andrade Alves: Sistema mostrar produtos de diversas lojas e filtro de preços
 * Henrique Santana Diniz:
 * Pedro Henrique Baroni Neves: 
-* Vitor Lany Freitas Ferreira: 
+* Vitor Lany Freitas Ferreira: Prototipação da interface e desenvolvimento da página de especificação do produto
 
 ## Ferramentas
 ### Ferramentas de Gerência de Projeto
