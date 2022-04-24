@@ -101,43 +101,43 @@ Engenharia de Software
 - **Ganhos:** Conseguir o produto desejado a um preço justo
 
 ## Histórias de usuários:
-Eu como uma pessoa que faço compras pela internet, desejo saber sobre as promoções antes de realizar uma compra, para não ser enganado com descontos falsos.
+Eu como Antônio, costumo usar bastante o cartão de crédito para compras na internet, preciso saber as melhores promoções com milhas para viajar no fim do ano.
 
-Eu como uma pessoa que uso bastante o cartão de crédito para compras na internet, preciso saber as melhores promoções com milhas para viajar no fim do ano.
+Eu como Mateus, faço compras pela internet e desejo saber sobre as promoções antes de realizar uma compra, para não ser enganado com descontos falsos.
 
 ## Requisitos
 ### Requisitos funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Ter uma categoria de produtos em destaque | ALTA | 
+|RF-001| Ter uma categoria de produtos em destaque | MÉDIA | 
 |RF-002| O menu deve apresentar um botão para entrar no grupo de descontos   | MÉDIA |
-|RF-003| O sistema deve mostrar o produto pesquisado de diferentes lojas online   | MÉDIA |
+|RF-003| O sistema deve mostrar o produto pesquisado de diferentes lojas online   | ALTA |
 |RF-004| O sistema deve ter um filtro de produtos por preço   | MÉDIA |
 |RF-005| O usuário deve fazer um cadastro no site   | MÉDIA |
 |RF-006| O site deve notificar o usuário quando acontecer uma promoção   | MÉDIA |
-|RF-007| Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido   | MÉDIA |
+|RF-007| Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido   | ALTA |
 |RF-008| Os destaques deve mostrar os produtos da semana   | MÉDIA |
 |RF-009| Colocar cards com a foto e o nome do produto  | MÉDIA |
-|RF-010| Filtro para determinar se deve mostrar produtos com cash back e milhas   | MÉDIA |
-|RF-011| Barra de pesquisa para procurar algum determinado produto  | MÉDIA |
+|RF-010| Filtro para determinar se deve mostrar produtos com cash back e milhas   | BAIXA |
+|RF-011| Barra de pesquisa para procurar algum determinado produto  | ALTA |
 |RF-012| Cada produto deve ter um histórico do seu preço nas últimas semanas  | MÉDIA |
 
 ### Requisitos não funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve ficar disponível 99% do tempo | MÉDIA | 
-|RNF-002| Se o grupo de descontos estiver cheio deve ficar inacessivel |  BAIXA | 
-|RNF-003| O site deve ter suporte a língua portuguesa |  BAIXA | 
-|RNF-004| O filtro de preços deve ter a possibilidade de olhar por ordem crescente e decrescente |  BAIXA | 
-|RNF-005| O site deve ser compatível com celular |  BAIXA | 
-|RNF-006| O site deve ser compatível com tablet |  BAIXA | 
-|RNF-007| O site deve ser compatível com os navegadores |  BAIXA | 
-|RNF-008| O site deve ser feito com as ferramentas HTML, CSS e JavaScript |  BAIXA | 
+|RNF-001| O site deve ficar disponível 99% do tempo | ALTA | 
+|RNF-002| Se o grupo de descontos estiver cheio deve ficar inacessivel | BAIXA | 
+|RNF-003| O site deve ter suporte a língua portuguesa | MÉDIA | 
+|RNF-004| O filtro de preços deve ter a possibilidade de olhar por ordem crescente e decrescente | MÉDIA | 
+|RNF-005| O site deve ser compatível com celular | ALTA | 
+|RNF-006| O site deve ser compatível com tablet | ALTA | 
+|RNF-007| O site deve ser compatível com os navegadores | ALTA | 
+|RNF-008| O site deve ser feito com as ferramentas HTML, CSS e JavaScript | MÉDIA | 
 |RNF-009| O site deve armazenar o CEP de um usuário cadastrado |  BAIXA | 
-|RNF-010| O site deve armazenar o preço do produto para seu histórico |  BAIXA | 
-|RNF-011| O site deve armazenar o email cadastrado para poder mandar notificações |  BAIXA | 
+|RNF-010| O site deve armazenar o preço do produto para seu histórico | MÉDIA | 
+|RNF-011| O site deve armazenar o email cadastrado para poder mandar notificações | MÉDIA | 
 |RNF-012| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 ## Restrições
@@ -158,11 +158,17 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 # Metodologia - Gestão do projeto
 
 ## Divisão de Papéis 
+* André Eller Pereira Mendonça:
+* Gabriel Peçanha Santiago:
+* Gustavo Andrade Alves: Sistema mostrar produtos de diversas lojas e filtro de preços
+* Henrique Santana Diniz:
+* Pedro Henrique Baroni Neves: 
+* Vitor Lany Freitas Ferreira: 
 
 ## Ferramentas
 ### Ferramentas de Gerência de Projeto
 > Trello - Para tarefas
-> 
+
 > Miro - Organização de ideias
 
 ### Ferramentas de Gerência de Versões
@@ -170,7 +176,7 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 
 ### Comunicação do Grupo
 > Whatsapp - Para discussões rápidas
-> 
+
 > Discord - Para reuniões online
 
 ## Controle de Versão
