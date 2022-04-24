@@ -101,9 +101,9 @@ Engenharia de Software
 - **Ganhos:** Conseguir o produto desejado a um preço justo
 
 ## Histórias de usuários:
-Eu como Antônio, costumo usar bastante o cartão de crédito para compras na internet, preciso saber as melhores promoções com milhas para viajar no fim do ano.
+Eu, como Antônio, costumo usar bastante o cartão de crédito para compras na internet, preciso saber as melhores promoções com milhas para viajar no fim do ano.
 
-Eu como Mateus, faço compras pela internet e desejo saber sobre as promoções antes de realizar uma compra, para não ser enganado com descontos falsos.
+Eu, como Mateus, faço compras pela internet e desejo saber sobre as promoções antes de realizar uma compra, para não ser enganado com descontos falsos.
 
 ## Requisitos
 ### Requisitos funcionais
@@ -128,7 +128,7 @@ Eu como Mateus, faço compras pela internet e desejo saber sobre as promoções 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O site deve ficar disponível 99% do tempo | ALTA | 
-|RNF-002| Se o grupo de descontos estiver cheio deve ficar inacessivel | BAIXA | 
+|RNF-002| Se o grupo de descontos estiver cheio deve ficar inacessível | BAIXA | 
 |RNF-003| O site deve ter suporte a língua portuguesa | MÉDIA | 
 |RNF-004| O filtro de preços deve ter a possibilidade de olhar por ordem crescente e decrescente | MÉDIA | 
 |RNF-005| O site deve ser compatível com celular | ALTA | 
@@ -138,15 +138,15 @@ Eu como Mateus, faço compras pela internet e desejo saber sobre as promoções 
 |RNF-009| O site deve armazenar o CEP de um usuário cadastrado |  BAIXA | 
 |RNF-010| O site deve armazenar o preço do produto para seu histórico | MÉDIA | 
 |RNF-011| O site deve armazenar o email cadastrado para poder mandar notificações | MÉDIA | 
-|RNF-012| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-012| O site deve armazenar o histórico de pesquisas do dia do usuário |  BAIXA | 
 
 ## Restrições
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| Não trabalhar com produtos de supermercado            |
+|02| Não trabalhar com produtos de supermercado            |
+|03| Não trabalhar com preços de gasolina                  |
 
 # Projeto de Interface
 ## Wireframe
