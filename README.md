@@ -76,17 +76,24 @@ Engenharia de Software
 - **Trabalho:** Gerente
 - **Personalidade:** Homem de família, gosta de passear com os filhos
 - **Sonhos:** Viajar para a Europa
-- **Objetivo e lugares:** 
-- **Objetivos chave:**
+- **Objetivo e lugares:** Antônio utiliza seu cartão de crédito para fazer compras online através do computador ou celular, geralmente em datas comemorativas para presentear amigos e família. Busca seus produtos em redes sociais e lojas virtuais 
+- **Objetivos chave:** Comprar pelo melhor preço e juntar milhas para viajar
+
+- **O que ele pensa e sente?** Preocupação em economizar e com o futuro dos filhos
+- **O que ele vê?** Amigos do trabalho, vizinhos, filhos e amigos da família
+- **O que ele diz e faz?** Utiliza roupas sociais durante o trabalho e roupas casuais quando está junto da família e amigos, respeita e trata o próximo educadamente
+- **O que ele ouve?** Experiência de amigos e familiares, avaliação de produtos e influenciadores digitais
+
+- **Dores:** Pouca visibilidade de promoções de milhas, quitar dívidas, gerenciar grande número de empregados
 
 ### Persona: Mateus
 - **Idade:** 22 anos
-- **Hobby:** 
-- **Trabalho:** 
-- **Personalidade:** 
-- **Sonhos:** 
-- **Objetivo e lugares:** 
-- **Objetivos chave:** 
+- **Hobby:** Futebol
+- **Trabalho:** Estagiário 
+- **Personalidade:** Jovem adulto, carismático, gosta de se divertir com o que compra
+- **Sonhos:** Comprar o primeiro carro 
+- **Objetivo e lugares:** Mateus faz compras através do cartão de crédito e também dinheiro físico, sem datas específicas. Busca seus produtos em lojas de esporte físicas e sites online
+- **Objetivos chave:** Economizar em compras de eletrodomésticos para seu apartamento
 
 ## Histórias de usuários:
 Eu como uma pessoa que faço compras pela internet, desejo saber sobre as promoções antes de realizar uma compra, para não ser enganado com descontos falsos.
@@ -150,6 +157,7 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 ## Ferramentas
 ### Ferramentas de Gerência de Projeto
 > Trello - Para tarefas
+> 
 > Miro - Organização de ideias
 
 ### Ferramentas de Gerência de Versões
@@ -157,6 +165,7 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 
 ### Comunicação do Grupo
 > Whatsapp - Para discussões rápidas
+> 
 > Discord - Para reuniões online
 
 ## Controle de Versão
