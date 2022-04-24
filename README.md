@@ -78,12 +78,10 @@ Engenharia de Software
 - **Sonhos:** Viajar para a Europa
 - **Objetivo e lugares:** Antônio utiliza seu cartão de crédito para fazer compras online através do computador ou celular, geralmente em datas comemorativas para presentear amigos e família. Busca seus produtos em redes sociais e lojas virtuais 
 - **Objetivos chave:** Comprar pelo melhor preço e juntar milhas para viajar
-
 - **O que ele pensa e sente?** Preocupação em economizar e com o futuro dos filhos
 - **O que ele vê?** Amigos do trabalho, vizinhos, filhos e amigos da família
 - **O que ele diz e faz?** Utiliza roupas sociais durante o trabalho e roupas casuais quando está junto da família e amigos, respeita e trata o próximo educadamente
 - **O que ele ouve?** Experiência de amigos e familiares, avaliação de produtos e influenciadores digitais
-
 - **Dores:** Pouca visibilidade de promoções de milhas, quitar dívidas, gerenciar grande número de empregados
 
 ### Persona: Mateus
