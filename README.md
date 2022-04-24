@@ -83,6 +83,7 @@ Engenharia de Software
 - **O que ele diz e faz?** Utiliza roupas sociais durante o trabalho e roupas casuais quando está junto da família e amigos, respeita e trata o próximo educadamente
 - **O que ele ouve?** Experiência de amigos e familiares, avaliação de produtos e influenciadores digitais
 - **Dores:** Pouca visibilidade de promoções de milhas, quitar dívidas, gerenciar grande número de empregados
+- **Ganhos:** Economizar dinheiro para viajar no final do ano e adquirir milhas
 
 ### Persona: Mateus
 - **Idade:** 22 anos
@@ -92,6 +93,12 @@ Engenharia de Software
 - **Sonhos:** Comprar o primeiro carro 
 - **Objetivo e lugares:** Mateus faz compras através do cartão de crédito e também dinheiro físico, sem datas específicas. Busca seus produtos em lojas de esporte físicas e sites online
 - **Objetivos chave:** Economizar em compras de eletrodomésticos para seu apartamento
+- **O que ele pensa e sente?** Conseguir um produto de qualidade por um bom preço e sempre buscar pela melhor oportunidade
+- **O que ele vê?** Influenciadores digitais, amigos do trabalho, faculdade e online
+- **O que ele diz e faz?** Se contenta com sua compra
+- **O que ele ouve?** Reviews de produto e recomendações de amigos
+- **Dores:** Pagar caro em um produto que poderia ter sido mais barato
+- **Ganhos:** Conseguir o produto desejado a um preço justo
 
 ## Histórias de usuários:
 Eu como uma pessoa que faço compras pela internet, desejo saber sobre as promoções antes de realizar uma compra, para não ser enganado com descontos falsos.
@@ -130,7 +137,7 @@ Eu como uma pessoa que uso bastante o cartão de crédito para compras na intern
 |RNF-008| O site deve ser feito com as ferramentas HTML, CSS e JavaScript |  BAIXA | 
 |RNF-009| O site deve armazenar o CEP de um usuário cadastrado |  BAIXA | 
 |RNF-010| O site deve armazenar o preço do produto para seu histórico |  BAIXA | 
-|RNF-011| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-011| O site deve armazenar o email cadastrado para poder mandar notificações |  BAIXA | 
 |RNF-012| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 ## Restrições
