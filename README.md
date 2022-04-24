@@ -159,9 +159,9 @@ Eu, como Mateus, faço compras pela internet e desejo saber sobre as promoções
 
 ## Divisão de Papéis 
 * André Eller Pereira Mendonça:
-* Gabriel Peçanha Santiago:
+* Gabriel Peçanha Santiago: Página de login
 * Gustavo Andrade Alves: Sistema mostrar produtos de diversas lojas e filtro de preços
-* Henrique Santana Diniz:
+* Henrique Santana Diniz: Aba de destaques
 * Pedro Henrique Baroni Neves: 
 * Vitor Lany Freitas Ferreira: Prototipação da interface e desenvolvimento da página de especificação do produto
 
