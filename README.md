@@ -114,7 +114,7 @@ Eu, como Mateus, faço compras pela internet e desejo saber sobre as promoções
 |RF-002| O menu deve apresentar um botão para entrar no grupo de descontos   | MÉDIA |
 |RF-003| O sistema deve mostrar o produto pesquisado de diferentes lojas online   | ALTA |
 |RF-004| O sistema deve ter um filtro de produtos por preço   | MÉDIA |
-|RF-005| O usuário deve fazer um cadastro no site   | MÉDIA |
+|RF-005| O usuário deve ter a possibilidade de cadastrar no site   | MÉDIA |
 |RF-006| O site deve notificar o usuário quando acontecer uma promoção   | MÉDIA |
 |RF-007| Cada produto mostrado deve ter a opção de visualizar ele no site original em que ele está sendo vendido   | ALTA |
 |RF-008| Os destaques deve mostrar os produtos da semana   | MÉDIA |
@@ -123,7 +123,7 @@ Eu, como Mateus, faço compras pela internet e desejo saber sobre as promoções
 |RF-011| Barra de pesquisa para procurar algum determinado produto  | ALTA |
 |RF-012| Cada produto deve ter um histórico do seu preço nas últimas semanas  | MÉDIA |
 
-### Requisitos não funcionais
+### Requisitos não-funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
@@ -158,11 +158,11 @@ Eu, como Mateus, faço compras pela internet e desejo saber sobre as promoções
 # Metodologia - Gestão do projeto
 
 ## Divisão de Papéis 
-* André Eller Pereira Mendonça:
-* Gabriel Peçanha Santiago: Página de login
-* Gustavo Andrade Alves: Sistema mostrar produtos de diversas lojas e filtro de preços
-* Henrique Santana Diniz: Aba de destaques
-* Pedro Henrique Baroni Neves: 
+* André Eller Pereira Mendonça: Cabeçalho e menu do site
+* Gabriel Peçanha Santiago: Página de login e cadastro
+* Gustavo Andrade Alves: Cards e descrição dos produtos
+* Henrique Santana Diniz: Aba de destaques e promoções
+* Pedro Henrique Baroni Neves: Filtro de preços, cashback e milhas
 * Vitor Lany Freitas Ferreira: Prototipação da interface e desenvolvimento da página de especificação do produto
 
 ## Ferramentas
@@ -180,3 +180,4 @@ Eu, como Mateus, faço compras pela internet e desejo saber sobre as promoções
 > Discord - Para reuniões online
 
 ## Controle de Versão
+> Commits do Github
