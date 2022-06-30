@@ -80,7 +80,7 @@ function mostrarVaregistras(id) {
               <h6 class="media-title font-weight-semibold">
                  <a href="#" data-abc="true">${produto.nomeDoProduto}</a>
               </h6>
-              <img src="imgs/${element.nome}.png" class="logo_outros">
+              <img src="imgs/${element.nome}.png" class="logo_outros" onerror="this.onerror=null; this.src='imgs/sem__foto.jpg'">
               <ul class="list-inline list-inline-dotted mb-0">
                  <li class="list-inline-item">Loja: <a href="#" data-abc="true">${element.nome}</a>
                  </li>
