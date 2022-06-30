@@ -1,571 +1,535 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="home.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<title>Be$t Option - Comparação de preços - T1 G3</title>
-</head>
-
-<body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-	<div class="super_container">
-
-		<!-- Header -->
-
-		<header class="header">
-
-			<!-- Top Bar -->
-
-			<div class="top_bar">
-				<div class="container">
-					<div class="row">
-						<div class="col d-flex flex-row">
-							<div class="top_bar_contact_item">
-								<div class="top_bar_icon"><img
-										src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918577/phone.png"
-										alt=""></div>+31 80564 9310
-							</div>
-							<div class="top_bar_contact_item">
-								<div class="top_bar_icon"><img
-										src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png"
-										alt=""></div><a href="mailto:fastsales@gmail.com">atendimento@buscapedro.com</a>
-							</div>
-							<div class="top_bar_content ml-auto">
-								<div class="top_bar_menu">
-									<ul class="standard_dropdown top_bar_dropdown">
-										<li>
-											<a>Português-br<i class="fas fa-chevron-down"></i></a>
-										</li>
-										<li>
-											<a>R$ Real Brasileiro<i class="fas fa-chevron-down"></i></a>
-											<ul>
-											</ul>
-										</li>
-									</ul>
-								</div>
-								<div class="top_bar_user">
-									<div class="user_icon"><img
-											src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918647/user.svg"
-											alt=""></div>
-									<div><a href="#">Cadastre-se</a></div>
-									<div><a href="#">Entrar</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Header Main -->
-
-			<div class="header_main">
-				<div class="container">
-					<div class="row">
-
-						<!-- Logo -->
-						<div class="col-lg-2 col-sm-3 col-3 order-1">
-							<div class="logo_container">
-								<div class="logo"><a href="#">Busca Pedro</a></div>
-							</div>
-						</div>
-
-						<!-- Search -->
-						<div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
-							<div class="header_search">
-								<div class="header_search_content">
-									<div class="header_search_form_container">
-										<form action="#" class="header_search_form clearfix">
-											<input type="search" required="required" class="header_search_input"
-												placeholder="Search for products...">
-											<div class="custom_dropdown" style="display: none;">
-												<div class="custom_dropdown_list">
-													<span class="custom_dropdown_placeholder clc">All Categories</span>
-													<i class="fas fa-chevron-down"></i>
-													<ul class="custom_list clc">
-														<li><a class="clc" href="#">All Categories</a></li>
-														<li><a class="clc" href="#">Computers</a></li>
-														<li><a class="clc" href="#">Laptops</a></li>
-														<li><a class="clc" href="#">Cameras</a></li>
-														<li><a class="clc" href="#">Hardware</a></li>
-														<li><a class="clc" href="#">Smartphones</a></li>
-													</ul>
-												</div>
-											</div>
-											<button type="submit" class="header_search_button trans_300"
-												value="Submit"><img
-													src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918770/search.png"
-													alt=""></button>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Wishlist -->
-						<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
-							<div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
-								<div class="wishlist d-flex flex-row align-items-center justify-content-end">
-									<div class="wishlist_icon"><img
-											src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918681/heart.png"
-											alt=""></div>
-									<div class="wishlist_content">
-										<div class="wishlist_text">Lista de desejos</div>
-										<div class="wishlist_count"><a href="#">Clique aqui</a></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Main Navigation -->
-
-			<nav class="main_nav">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-
-							<div class="main_nav_content d-flex flex-row">
-
-								<!-- Categories Menu -->
-
-
-
-								<!-- Main Nav Menu -->
-
-								<div class="main_nav_menu">
-									<ul class="standard_dropdown main_nav_dropdown">
-										<li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
-										<li class="hassubs">
-											<a href="#">Procurar por<i class="fas fa-chevron-down"></i></a>
-											<ul>
-												<li>
-													<a href="#">Promoções<i class="fas fa-chevron-down"></i></a>
-													<ul>
-														<li><a href="#">Cashback/Milhas<i
-																	class="fas fa-chevron-down"></i></a></li>
-														<li><a href="#">Pague 1 leve 2<i
-																	class="fas fa-chevron-down"></i></a></li>
-														<li><a href="#">Descontos<i class="fas fa-chevron-down"></i></a>
-														</li>
-													</ul>
-												</li>
-												<li><a href="#">Mais Procurados<i class="fas fa-chevron-down"></i></a>
-												</li>
-												<li><a href="#">Frete Grátis<i class="fas fa-chevron-down"></i></a></li>
-												<li><a href="#">Recomendados<i class="fas fa-chevron-down"></i></a></li>
-											</ul>
-										</li>
-										<li class="hassubs">
-											<a href="#">Marcas mais procuradas<i class="fas fa-chevron-down"></i></a>
-											<ul>
-												<li>
-													<a href="#">Apple<i class="fas fa-chevron-down"></i></a>
-													<ul>
-														<li><a href="#">Laptop<i class="fas fa-chevron-down"></i></a>
-														</li>
-														<li><a href="#">Mobiles<i class="fas fa-chevron-down"></i></a>
-														</li>
-														<li><a href="#">Ipads<i class="fas fa-chevron-down"></i></a>
-														</li>
-													</ul>
-												</li>
-												<li><a href="#">Samsung<i class="fas fa-chevron-down"></i></a>
-													<ul>
-														<li><a href="#">Laptop<i class="fas fa-chevron-down"></i></a>
-														</li>
-														<li><a href="#">Mobiles<i class="fas fa-chevron-down"></i></a>
-														</li>
-														<li><a href="#">Ipads<i class="fas fa-chevron-down"></i></a>
-														</li>
-													</ul>
-												</li>
-												<li><a href="#">Adidas<i class="fas fa-chevron-down"></i></a>
-													<ul>
-														<li><a href="#">Calçados<i class="fas fa-chevron-down"></i></a>
-														</li>
-														<li><a href="#">Camisetas<i class="fas fa-chevron-down"></i></a>
-														</li>
-														<li><a href="#">Acessórios<i
-																	class="fas fa-chevron-down"></i></a></li>
-													</ul>
-												</li>
-												<li><a href="#">Nike<i class="fas fa-chevron-down"></i></a>
-													<ul>
-														<li><a href="#">Calçados<i class="fas fa-chevron-down"></i></a>
-														</li>
-														<li><a href="#">Camisetas<i class="fas fa-chevron-down"></i></a>
-														</li>
-														<li><a href="#">Acessórios<i
-																	class="fas fa-chevron-down"></i></a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li class="hassubs">
-											<a href="#">Categorias<i class="fas fa-chevron-down"></i></a>
-											<ul>
-												<li><a href="#">Celulares e Telefones<i
-															class="fas fa-chevron-down"></i></a></li>
-												<li><a href="#">Moda e Acessórios<i class="fas fa-chevron-down"></i></a>
-												</li>
-												<li><a href="#">Esportes e Lazer<i class="fas fa-chevron-down"></i></a>
-												</li>
-												<li><a href="#">Eletrodomésticos<i class="fas fa-chevron-down"></i></a>
-												</li>
-												<li><a href="#">Games<i class="fas fa-chevron-down"></i></a></li>
-												<li><a href="#">TV e Eletrônicos<i class="fas fa-chevron-down"></i></a>
-												</li>
-												<li><a href="#">Decoração<i class="fas fa-chevron-down"></i></a></li>
-											</ul>
-										</li>
-										<li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
-										<li><a href="contact.html">Entre em contato<i
-													class="fas fa-chevron-down"></i></a></li>
-									</ul>
-								</div>
-
-								<!-- Menu Trigger -->
-
-								<div class="menu_trigger_container ml-auto">
-									<div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
-										<div class="menu_burger">
-											<div class="menu_trigger_text">menu</div>
-											<div class="cat_burger menu_burger_inner">
-												<span></span><span></span><span></span>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</nav>
-
-			<!-- Menu -->
-
-			<div class="page_menu">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-
-							<div class="page_menu_content">
-
-								<div class="page_menu_search">
-									<form action="#">
-										<input type="search" required="required" class="page_menu_search_input"
-											placeholder="Search for products...">
-									</form>
-								</div>
-								<ul class="page_menu_nav">
-									<li class="page_menu_item has-children">
-										<a href="#">Language<i class="fa fa-angle-down"></i></a>
-										<ul class="page_menu_selection">
-											<li><a href="#">English<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Italian<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Spanish<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Japanese<i class="fa fa-angle-down"></i></a></li>
-										</ul>
-									</li>
-									<li class="page_menu_item has-children">
-										<a href="#">Currency<i class="fa fa-angle-down"></i></a>
-										<ul class="page_menu_selection">
-											<li><a href="#">US Dollar<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">EUR Euro<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">GBP British Pound<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">JPY Japanese Yen<i class="fa fa-angle-down"></i></a></li>
-										</ul>
-									</li>
-									<li class="page_menu_item">
-										<a href="#">Home<i class="fa fa-angle-down"></i></a>
-									</li>
-									<li class="page_menu_item has-children">
-										<a href="#">Super Deals<i class="fa fa-angle-down"></i></a>
-										<ul class="page_menu_selection">
-											<li><a href="#">Super Deals<i class="fa fa-angle-down"></i></a></li>
-											<li class="page_menu_item has-children">
-												<a href="#">Menu Item<i class="fa fa-angle-down"></i></a>
-												<ul class="page_menu_selection">
-													<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-													<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-													<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-													<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-												</ul>
-											</li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-										</ul>
-									</li>
-									<li class="page_menu_item has-children">
-										<a href="#">Featured Brands<i class="fa fa-angle-down"></i></a>
-										<ul class="page_menu_selection">
-											<li><a href="#">Featured Brands<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-										</ul>
-									</li>
-									<li class="page_menu_item has-children">
-										<a href="#">Trending Styles<i class="fa fa-angle-down"></i></a>
-										<ul class="page_menu_selection">
-											<li><a href="#">Trending Styles<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-											<li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
-										</ul>
-									</li>
-									<li class="page_menu_item"><a href="blog.html">blog<i
-												class="fa fa-angle-down"></i></a></li>
-									<li class="page_menu_item"><a href="contact.html">contact<i
-												class="fa fa-angle-down"></i></a></li>
-								</ul>
-
-								<div class="menu_contact">
-									<div class="menu_contact_item">
-										<div class="menu_contact_icon"><img src="imgs/phone_white.png" alt=""></div>
-										+38 068 005 3570
-									</div>
-									<div class="menu_contact_item">
-										<div class="menu_contact_icon"><img src="imgs/mail_white.png" alt=""></div><a
-											href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</header>
-
-
-		<main class="container">
-
-			<h1 class="titulos">Encontre os melhores preços!</h1>
-
-			<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-						aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-						aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-						aria-label="Slide 3"></button>
-				</div>
-				<div class="carousel-inner">
-					<div class="carousel-item active" data-bs-interval="10000">
-						<img src="imgs/banner-tv-01.jpg" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block">
-						</div>
-					</div>
-					<div class="carousel-item" data-bs-interval="2000">
-						<img src="imgs/banner-tv-01.jpg" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block">
-						</div>
-					</div>
-					<div class="carousel-item">
-						<img src="imgs/banner-tv-01.jpg" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block">
-						</div>
-					</div>
-				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-					data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-					data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
-			</div>
-
-			<!--coisinhas embaixo do carousel-->
-
-			<div class="container_icons">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="char_item">
-							<div class="row">
-								<div class="col-3">
-									<div class="char_icon"><img
-											src="https://img.icons8.com/nolan/64/000000/free-shipping.png">
-									</div>
-								</div>
-								<div class="col-8">
-									<div class="char_content">
-										<div class="char_title">Frete Grátis</div>
-										<div class="char_subtitle">Apresentamos os produtos que possuem frete grátis
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="char_item">
-							<div class="row">
-								<div class="col-3">
-									<div class="char_icon"><img
-											src="https://img.icons8.com/nolan/64/000000/handshake.png">
-									</div>
-								</div>
-								<div class="col-8">
-									<div class="char_content">
-										<div class="char_title">Ofertas</div>
-										<div class="char_subtitle">Apresentamos produtos com ofertas especiais em suas
-											lojas</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="char_item">
-							<div class="row">
-								<div class="col-3">
-									<div class="char_icon"><img
-											src="https://img.icons8.com/nolan/64/000000/replace.png">
-									</div>
-								</div>
-								<div class="col-8">
-									<div class="char_content">
-										<div class="char_title">Atualizações</div>
-										<div class="char_subtitle">Preços atualizados e as melhores ofertas</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-12">
-						<div class="char_item">
-							<div class="row">
-								<div class="col-3">
-									<div class="char_icon"><img
-											src="https://img.icons8.com/nolan/64/000000/cash-in-hand.png">
-									</div>
-								</div>
-								<div class="col-8">
-									<div class="char_content">
-										<div class="char_title">Cashback</div>
-										<div class="char_subtitle">Apresentamos produtos com ofertas de cashback</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<main>
-
-				<h1>Produtos recomendados:</h1>
-
-				<div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
-					<div id="produtos__mostrar" class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
-						
-					</div>
-				</div>
-			</main>
-
-
-		</main>
-
-		<footer>
-			<footer id="footer">
-				<div class="footer-newsletter">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6">
-								<h4>Busca Pedro</h4>
-								<p>Cadastre-se e receba notifições de promoções e ofertas imperdíveis de itens da sua
-									lista
-									de desejos! </p>
-							</div>
-							<div class="col-lg-6">
-								<form action="" method="post"> <input type="email" name="email"><input type="submit"
-										value="Cadastre-se"> </form>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-top">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-3 col-md-6 footer-links">
-								<h4>Páginas</h4>
-								<ul>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Bolg</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Entre em contato</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Termos de serviço</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Política e privacidade</a></li>
-								</ul>
-							</div>
-							<div class="col-lg-3 col-md-6 footer-links">
-								<h4>Categorias</h4>
-								<ul>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Celulares & Telefones</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Moda & Acessórios</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Esportes & Lazer</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Games</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">TV & Eletrônicos</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Eletrodomésticos</a></li>
-									<li><i class="bx bx-chevron-right"></i> <a href="#">Decoração</a></li>
-								</ul>
-							</div>
-							<div class="col-lg-3 col-md-6 footer-contact">
-								<h4>Entre em contato</h4>
-								<strong>Telefone:</strong> +31 0000 0000<br> <strong>Email:</strong>
-								atendimento@buscapedro.com<br> </p>
-							</div>
-							<div class="col-lg-3 col-md-6 footer-info">
-								<h3>Sobre o Busca Pedro</h3>
-								<p>Projeto criado por alunos de primeiro período do curso de Engenharia de Software na
-									PUC
-									Minas, referente a diciplina de Trabalho Intediciplinar e Aplicações Web (TIAW).</p>
-								<div class="social-links mt-3"> <a href="#" class="twitter"><i
-											class="bx bxl-twitter"></i></a> <a href="#" class="facebook"><i
-											class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i
-											class="bx bxl-instagram"></i></a> <a href="#" class="linkedin"><i
-											class="bx bxl-linkedin"></i></a> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					<div class="copyright"> Copyright 2022 - Diciplina de Trabalho interdiciplinar e aplicações Web -
-						<b>ICEI PUC Minas</b>
-					</div>
-					<div class="credits"> Comparação de preços - <b>Grupo T1 G3</b> </div>
-				</div>
-			</footer>
-		</footer>
-
-
-		<script src="home.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-			integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-			crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-			integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-			crossorigin="anonymous"></script>
-
-</body>
-
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="home.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <title>Busca Pedro - Comparação de preços - T1 G3</title>
+   </head>
+   <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+      <div class="super_container">
+      <!-- Header -->
+      <header class="header">
+         <!-- Top Bar -->
+         <div class="top_bar">
+            <div class="container">
+               <div class="row">
+                  <div class="col d-flex flex-row">
+                     <div class="top_bar_contact_item">
+                        <div class="top_bar_icon"><img
+                           src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918577/phone.png"
+                           alt=""></div>
+                        +31 80564 9310
+                     </div>
+                     <div class="top_bar_contact_item">
+                        <div class="top_bar_icon"><img
+                           src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png"
+                           alt=""></div>
+                        <a href="mailto:fastsales@gmail.com">atendimento@buscapedro.com</a>
+                     </div>
+                     <div class="top_bar_content ml-auto">
+                        <div class="top_bar_menu">
+                           <ul class="standard_dropdown top_bar_dropdown">
+                              <li>
+                                 <a>Português-br<i class="fas fa-chevron-down"></i></a>
+                              </li>
+                              <li>
+                                 <a>R$ Real Brasileiro<i class="fas fa-chevron-down"></i></a>
+                                 <ul>
+                                 </ul>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="top_bar_user">
+                           <div class="user_icon"><img
+                              src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918647/user.svg"
+                              alt=""></div>
+                           <div><a href="#">Cadastre-se</a></div>
+                           <div><a href="#">Entrar</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Header Main -->
+         <div class="header_main">
+            <div class="container">
+               <div class="row">
+                  <!-- Logo -->
+                  <div class="col-lg-2 col-sm-3 col-3 order-1">
+                     <div class="logo_container">
+                        <div class="logo"><a href="#">Busca Pedro</a></div>
+                     </div>
+                  </div>
+                  <!-- Search -->
+                  <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                     <div class="header_search">
+                        <div class="header_search_content">
+                           <div class="header_search_form_container">
+                              <form action="#" class="header_search_form clearfix">
+                                 <input type="search" required="required" class="header_search_input"
+                                    placeholder="Search for products...">
+                                 <div class="custom_dropdown" style="display: none;">
+                                    <div class="custom_dropdown_list">
+                                       <span class="custom_dropdown_placeholder clc">All Categories</span>
+                                       <i class="fas fa-chevron-down"></i>
+                                       <ul class="custom_list clc">
+                                          <li><a class="clc" href="#">All Categories</a></li>
+                                          <li><a class="clc" href="#">Computers</a></li>
+                                          <li><a class="clc" href="#">Laptops</a></li>
+                                          <li><a class="clc" href="#">Cameras</a></li>
+                                          <li><a class="clc" href="#">Hardware</a></li>
+                                          <li><a class="clc" href="#">Smartphones</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                                 <button type="submit" class="header_search_button trans_300"
+                                    value="Submit"><img
+                                    src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918770/search.png"
+                                    alt=""></button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Wishlist -->
+                  <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+                     <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
+                        <div class="wishlist d-flex flex-row align-items-center justify-content-end">
+                           <div class="wishlist_icon"><img
+                              src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918681/heart.png"
+                              alt=""></div>
+                           <div class="wishlist_content">
+                              <div class="wishlist_text">Lista de desejos</div>
+                              <div class="wishlist_count"><a href="#">Clique aqui</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Main Navigation -->
+         <nav class="main_nav">
+            <div class="container">
+               <div class="row">
+                  <div class="col">
+                     <div class="main_nav_content d-flex flex-row">
+                        <!-- Categories Menu -->
+                        <!-- Main Nav Menu -->
+                        <div class="main_nav_menu">
+                           <ul class="standard_dropdown main_nav_dropdown">
+                              <li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
+                              <li class="hassubs">
+                                 <a href="#">Procurar por<i class="fas fa-chevron-down"></i></a>
+                                 <ul>
+                                    <li>
+                                       <a href="#">Promoções<i class="fas fa-chevron-down"></i></a>
+                                       <ul>
+                                          <li><a href="#">Cashback/Milhas<i
+                                             class="fas fa-chevron-down"></i></a></li>
+                                          <li><a href="#">Pague 1 leve 2<i
+                                             class="fas fa-chevron-down"></i></a></li>
+                                          <li><a href="#">Descontos<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li><a href="#">Mais Procurados<i class="fas fa-chevron-down"></i></a>
+                                    </li>
+                                    <li><a href="#">Frete Grátis<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Recomendados<i class="fas fa-chevron-down"></i></a></li>
+                                 </ul>
+                              </li>
+                              <li class="hassubs">
+                                 <a href="#">Marcas mais procuradas<i class="fas fa-chevron-down"></i></a>
+                                 <ul>
+                                    <li>
+                                       <a href="#">Apple<i class="fas fa-chevron-down"></i></a>
+                                       <ul>
+                                          <li><a href="#">Laptop<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                          <li><a href="#">Mobiles<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                          <li><a href="#">Ipads<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#">Samsung<i class="fas fa-chevron-down"></i></a>
+                                       <ul>
+                                          <li><a href="#">Laptop<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                          <li><a href="#">Mobiles<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                          <li><a href="#">Ipads<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#">Adidas<i class="fas fa-chevron-down"></i></a>
+                                       <ul>
+                                          <li><a href="#">Calçados<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                          <li><a href="#">Camisetas<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                          <li><a href="#">Acessórios<i
+                                             class="fas fa-chevron-down"></i></a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#">Nike<i class="fas fa-chevron-down"></i></a>
+                                       <ul>
+                                          <li><a href="#">Calçados<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                          <li><a href="#">Camisetas<i class="fas fa-chevron-down"></i></a>
+                                          </li>
+                                          <li><a href="#">Acessórios<i
+                                             class="fas fa-chevron-down"></i></a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="hassubs">
+                                 <a href="#">Categorias<i class="fas fa-chevron-down"></i></a>
+                                 <ul>
+                                    <li><a href="#">Celulares e Telefones<i
+                                       class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="#">Moda e Acessórios<i class="fas fa-chevron-down"></i></a>
+                                    </li>
+                                    <li><a href="#">Esportes e Lazer<i class="fas fa-chevron-down"></i></a>
+                                    </li>
+                                    <li><a href="#">Eletrodomésticos<i class="fas fa-chevron-down"></i></a>
+                                    </li>
+                                    <li><a href="#">Games<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="#">TV e Eletrônicos<i class="fas fa-chevron-down"></i></a>
+                                    </li>
+                                    <li><a href="#">Decoração<i class="fas fa-chevron-down"></i></a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
+                              <li><a href="contact.html">Entre em contato<i
+                                 class="fas fa-chevron-down"></i></a></li>
+                           </ul>
+                        </div>
+                        <!-- Menu Trigger -->
+                        <div class="menu_trigger_container ml-auto">
+                           <div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
+                              <div class="menu_burger">
+                                 <div class="menu_trigger_text">menu</div>
+                                 <div class="cat_burger menu_burger_inner">
+                                    <span></span><span></span><span></span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <!-- Menu -->
+         <div class="page_menu">
+            <div class="container">
+               <div class="row">
+                  <div class="col">
+                     <div class="page_menu_content">
+                        <div class="page_menu_search">
+                           <form action="#">
+                              <input type="search" required="required" class="page_menu_search_input"
+                                 placeholder="Search for products...">
+                           </form>
+                        </div>
+                        <ul class="page_menu_nav">
+                           <li class="page_menu_item has-children">
+                              <a href="#">Language<i class="fa fa-angle-down"></i></a>
+                              <ul class="page_menu_selection">
+                                 <li><a href="#">English<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Italian<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Spanish<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Japanese<i class="fa fa-angle-down"></i></a></li>
+                              </ul>
+                           </li>
+                           <li class="page_menu_item has-children">
+                              <a href="#">Currency<i class="fa fa-angle-down"></i></a>
+                              <ul class="page_menu_selection">
+                                 <li><a href="#">US Dollar<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">EUR Euro<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">GBP British Pound<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">JPY Japanese Yen<i class="fa fa-angle-down"></i></a></li>
+                              </ul>
+                           </li>
+                           <li class="page_menu_item">
+                              <a href="#">Home<i class="fa fa-angle-down"></i></a>
+                           </li>
+                           <li class="page_menu_item has-children">
+                              <a href="#">Super Deals<i class="fa fa-angle-down"></i></a>
+                              <ul class="page_menu_selection">
+                                 <li><a href="#">Super Deals<i class="fa fa-angle-down"></i></a></li>
+                                 <li class="page_menu_item has-children">
+                                    <a href="#">Menu Item<i class="fa fa-angle-down"></i></a>
+                                    <ul class="page_menu_selection">
+                                       <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                       <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                       <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                       <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                              </ul>
+                           </li>
+                           <li class="page_menu_item has-children">
+                              <a href="#">Featured Brands<i class="fa fa-angle-down"></i></a>
+                              <ul class="page_menu_selection">
+                                 <li><a href="#">Featured Brands<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                              </ul>
+                           </li>
+                           <li class="page_menu_item has-children">
+                              <a href="#">Trending Styles<i class="fa fa-angle-down"></i></a>
+                              <ul class="page_menu_selection">
+                                 <li><a href="#">Trending Styles<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                                 <li><a href="#">Menu Item<i class="fa fa-angle-down"></i></a></li>
+                              </ul>
+                           </li>
+                           <li class="page_menu_item"><a href="blog.html">blog<i
+                              class="fa fa-angle-down"></i></a></li>
+                           <li class="page_menu_item"><a href="contact.html">contact<i
+                              class="fa fa-angle-down"></i></a></li>
+                        </ul>
+                        <div class="menu_contact">
+                           <div class="menu_contact_item">
+                              <div class="menu_contact_icon"><img src="imgs/phone_white.png" alt=""></div>
+                              +38 068 005 3570
+                           </div>
+                           <div class="menu_contact_item">
+                              <div class="menu_contact_icon"><img src="imgs/mail_white.png" alt=""></div>
+                              <a
+                                 href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="container">
+         <h1 class="titulos">Encontre os melhores preços!</h1>
+         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+               <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="imgs/banner-tv-01.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+               </div>
+               <div class="carousel-item" data-bs-interval="2000">
+                  <img src="imgs/banner-tv-01.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="imgs/banner-tv-01.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+               data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+               data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+         <!--coisinhas embaixo do carousel-->
+         <div class="container_icons">
+            <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="char_item">
+                     <div class="row">
+                        <div class="col-3">
+                           <div class="char_icon"><img
+                              src="https://img.icons8.com/nolan/64/000000/free-shipping.png">
+                           </div>
+                        </div>
+                        <div class="col-8">
+                           <div class="char_content">
+                              <div class="char_title">Frete Grátis</div>
+                              <div class="char_subtitle">Apresentamos os produtos que possuem frete grátis
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="char_item">
+                     <div class="row">
+                        <div class="col-3">
+                           <div class="char_icon"><img
+                              src="https://img.icons8.com/nolan/64/000000/handshake.png">
+                           </div>
+                        </div>
+                        <div class="col-8">
+                           <div class="char_content">
+                              <div class="char_title">Ofertas</div>
+                              <div class="char_subtitle">Apresentamos produtos com ofertas especiais em suas
+                                 lojas
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="char_item">
+                     <div class="row">
+                        <div class="col-3">
+                           <div class="char_icon"><img
+                              src="https://img.icons8.com/nolan/64/000000/replace.png">
+                           </div>
+                        </div>
+                        <div class="col-8">
+                           <div class="char_content">
+                              <div class="char_title">Atualizações</div>
+                              <div class="char_subtitle">Preços atualizados e as melhores ofertas</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="char_item">
+                     <div class="row">
+                        <div class="col-3">
+                           <div class="char_icon"><img
+                              src="https://img.icons8.com/nolan/64/000000/cash-in-hand.png">
+                           </div>
+                        </div>
+                        <div class="col-8">
+                           <div class="char_content">
+                              <div class="char_title">Cashback</div>
+                              <div class="char_subtitle">Apresentamos produtos com ofertas de cashback</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <main>
+            <h1>Produtos recomendados:</h1>
+            <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
+               <div id="produtos__mostrar" class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+               </div>
+            </div>
+         </main>
+      </main>
+      <footer>
+         <footer id="footer">
+            <div class="footer-newsletter">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <h4>Busca Pedro</h4>
+                        <p>Cadastre-se e receba notifições de promoções e ofertas imperdíveis de itens da sua
+                           lista
+                           de desejos! 
+                        </p>
+                     </div>
+                     <div class="col-lg-6">
+                        <form action="" method="post"> <input type="email" name="email"><input type="submit"
+                           value="Cadastre-se"> </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-top">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Páginas</h4>
+                        <ul>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Bolg</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Entre em contato</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Termos de serviço</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Política e privacidade</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Categorias</h4>
+                        <ul>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Celulares & Telefones</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Moda & Acessórios</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Esportes & Lazer</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Games</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">TV & Eletrônicos</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Eletrodomésticos</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#">Decoração</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Entre em contato</h4>
+                        <strong>Telefone:</strong> +31 0000 0000<br> <strong>Email:</strong>
+                        atendimento@buscapedro.com<br> </p>
+                     </div>
+                     <div class="col-lg-3 col-md-6 footer-info">
+                        <h3>Sobre o Busca Pedro</h3>
+                        <p>Projeto criado por alunos de primeiro período do curso de Engenharia de Software na
+                           PUC
+                           Minas, referente a diciplina de Trabalho Intediciplinar e Aplicações Web (TIAW).
+                        </p>
+                        <div class="social-links mt-3"> <a href="#" class="twitter"><i
+                           class="bx bxl-twitter"></i></a> <a href="#" class="facebook"><i
+                           class="bx bxl-facebook"></i></a> <a href="#" class="instagram"><i
+                           class="bx bxl-instagram"></i></a> <a href="#" class="linkedin"><i
+                           class="bx bxl-linkedin"></i></a> </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="copyright"> Copyright 2022 - Diciplina de Trabalho interdiciplinar e aplicações Web -
+                  <b>ICEI PUC Minas</b>
+               </div>
+               <div class="credits"> Comparação de preços - <b>Grupo T1 G3</b> </div>
+            </div>
+         </footer>
+      </footer>
+      <script src="home.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+         crossorigin="anonymous"></script>
+   </body>
 </html>

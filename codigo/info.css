@@ -1668,3 +1668,11 @@ a{
 	font-size: 13px;
 	color: #fff
 }
+
+.card-img-top {
+	max-height: 300px;
+}
+
+.card-img-top {
+	object-fit: contain;
+}
