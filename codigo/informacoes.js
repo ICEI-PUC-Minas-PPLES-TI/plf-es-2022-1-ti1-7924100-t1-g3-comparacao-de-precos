@@ -87,7 +87,7 @@ function mostrarVaregistras(id) {
               </ul>
            </div>
            <div class="mt-3 mt-lg-0 ml-lg-3 text-center">
-              <h3 class="mb-0 font-weight-semibold">R$4,500.00</h3>
+              <h3 class="mb-0 font-weight-semibold">R$ ${Intl.NumberFormat('pt-BR').format(element.precoNovo)},00</h3>
               <div>
                  <i class="fa fa-star"></i>
                  <i class="fa fa-star"></i>
