@@ -2,6 +2,11 @@ var data = JSON.parse(localStorage.getItem("data"))
 let search = new URLSearchParams(location.search)
 let id = search.get("id")
 
+if (!localStorage.getItem("favoritos")) {
+    let favoritos = []
+    localStorage.setItem("favoritos", JSON.stringify(favoritos))
+}
+
 
 produtoPrincipal(id)
 mostrarVaregistras(id)
@@ -39,7 +44,7 @@ function produtoPrincipal(id) {
         </div>
         <div><span class="font-weight-bold">Marca:</span><span class="ml-2">${element.fabricanteDoProduto}</span></div>
         <div class="mt-3">
-            <button class="btn btn-danger mr-2" type="button">Lista de desejos</button>
+            <button class="btn btn-danger mr-2" type="button" onclick="adicionarFavoritos()"><i class="fa-solid fa-plus"></i> Lista de desejos</button>
             <button class="btn btn-warning" onclick="window.location.href='${element.varegistas[melhorPreco(element)].link}'" type="button">Ir ao site</button>
         </div>
     </div>
@@ -74,7 +79,7 @@ function mostrarVaregistras(id) {
         <div
            class="media align-items-center align-items-lg-start text-center text-lg-left flex-column flex-lg-row">
            <div class="mr-2 mb-3 mb-lg-0">
-              <img src="${produto.imagemDoProduto}" width="150" height="150" alt="">
+              <img class="produto__imagem" src="${produto.imagemDoProduto}" width="150" height="150" alt="">
            </div>
            <div class="media-body">
               <h6 class="media-title font-weight-semibold">
@@ -96,10 +101,41 @@ function mostrarVaregistras(id) {
                  <i class="fa fa-star-half-o"></i>
               </div>
               <div class="text-muted">${Math.floor(Math.random() * (1000 - 10 + 1) + 10)} reviews</div>
-              <button type="button" class="btn btn-warning mt-4 text-white"><i
-                 class="icon-cart-add mr-2"></i> Ir ao site</button>
+              <button type="button" class="btn btn-warning mt-4 text-white" onclick="window.location.href='${element.link}'">
+              <i class="icon-cart-add mr-2"></i> Ir ao site</button>
            </div>
         </div>
      </div>`
     });
+}
+
+function adicionarFavoritos() {
+    let favoritos = JSON.parse(localStorage.getItem("favoritos"))
+    if (!fazParte(id, favoritos)) {
+        favoritos.push({"id": id})
+        localStorage.setItem("favoritos", JSON.stringify(favoritos))
+    }
+}
+
+function removerFavoritos() {
+    let favoritos = JSON.parse(localStorage.getItem("favoritos"))
+    if (fazParte(id, favoritos)) {
+        favoritos.forEach((currentValue, index, array) => {
+            if (currentValue.id == parseInt(id)) {
+                console.log("Remover", currentValue, index, array)
+                favoritos.splice(index, 1)
+                localStorage.setItem("favoritos", JSON.stringify(favoritos))
+            }
+        })
+    }
+}
+
+function fazParte(produto, vetor) {
+    let resposta = false
+    vetor.forEach((currentValue, index, array) => {
+        if (currentValue.id == parseInt(produto)) {
+            resposta = true
+        }
+    })
+    return resposta
 }

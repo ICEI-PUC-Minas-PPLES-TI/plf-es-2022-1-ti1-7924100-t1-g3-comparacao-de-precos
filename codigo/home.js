@@ -56,7 +56,7 @@ function construirProdutos() {
             <div class="col">
                 <div class="card h-100 shadow-sm"> 
                 <img src="${element.imagemDoProduto}" class="card-img-top" alt="...">
-                    <div class="label-top shadow-sm">-${desconto}% OFF</div>
+                    <div class="label-top shadow-sm">${desconto}% OFF</div>
                     <div class="card-body">
                         <div class="clearfix mb-3"> 
                             <h5 class="limitador-texto">${element.nomeDoProduto}</h5>

@@ -993,7 +993,7 @@ select option {
 .main_nav_dropdown li a {
 	font-size: 18px;
 	font-weight: 400;
-	color: #a7a7a7;
+	color: #ffffff;
 	line-height: 60px;
 }
 
@@ -1674,5 +1674,9 @@ a{
 }
 
 .card-img-top {
+	object-fit: contain;
+}
+
+.produto__imagem {
 	object-fit: contain;
 }
