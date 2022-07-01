@@ -2,15 +2,8 @@ var data = JSON.parse(localStorage.getItem("data"))
 let search = new URLSearchParams(location.search)
 let id = search.get("id")
 
-if (!localStorage.getItem("favoritos")) {
-    let favoritos = []
-    localStorage.setItem("favoritos", JSON.stringify(favoritos))
-}
-
-
 produtoPrincipal(id)
 mostrarVaregistras(id)
-
 
 function produtoPrincipal(id) {
     let informacao = document.getElementById("produto__principal")

@@ -43,6 +43,12 @@ if (!localStorage.getItem("data")) {
     localStorage.setItem("data", JSON.stringify(data))
 }
 
+if (!localStorage.getItem("favoritos")) {
+    let favoritos = []
+    localStorage.setItem("favoritos", JSON.stringify(favoritos))
+}
+
+
 var data = JSON.parse(localStorage.getItem("data"))
 construirProdutos();
 

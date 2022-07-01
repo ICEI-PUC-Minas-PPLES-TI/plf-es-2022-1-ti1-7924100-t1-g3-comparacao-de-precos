@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="info.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/64/64673.png">
+	<script src="https://kit.fontawesome.com/8dff099baa.js" crossorigin="anonymous"></script>
+    <title>Busca Pedro - Comparação de preços - T1 G3</title>
+</head>
+<body>
+    <div class="container">
+        <div id="favoritos__mostrar" class="row">
+            <script>
+				var favoritos = JSON.parse(localStorage.getItem("favoritos"))
+				var data = JSON.parse(localStorage.getItem("data"))
+				var conteudo = document.getElementById("favoritos__mostrar")
+
+				{
+					favoritos.forEach((element, index, array) => {
+						let objeto = data[element.id]
+    					let menorPreco = objeto.varegistas[melhorPreco(objeto)].precoNovo
+						conteudo.innerHTML += `
+						<div class="card card-body col-12">
+							<div
+								class="media align-items-center align-items-lg-start text-center text-lg-left flex-column flex-lg-row">
+								<div class="mr-2 mb-3 mb-lg-0">
+									<img class="produto__imagem" src="${objeto.imagemDoProduto}" width="150" height="150" alt="">
+								</div>
+								<div class="media-body">
+									<h6 class="media-title font-weight-semibold">${objeto.nomeDoProduto}</h6>
+								</div>
+								<div class="mt-3 mt-lg-0 ml-lg-3 text-center">
+									<h3 class="mb-0 font-weight-semibold">R$ ${Intl.NumberFormat('pt-BR').format(menorPreco)},00</h3>
+									<div>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-o"></i>
+									</div>
+									<div class="text-muted">${Math.floor(Math.random() * (1000 - 10 + 1) + 10)} reviews</div>
+									<button type="button" class="btn btn-warning mt-4 text-white" onclick="window.location.href='informaçõesproduto.html?id=${element.id}'">Página do produto</button>
+									<button type="button" class="btn btn-danger mt-4 text-white" onclick="removerFavoritos(${element.id})">Remover</button>
+								</div>
+							</div>
+						</div>
+						`
+					})
+				}
+
+				
+				function melhorPreco(element) {
+					let menorValor
+					let menorIndex
+					let primeira = true
+					for (i = 0; i < element.varegistas.length; i++) {
+						if (primeira) {
+							menorValor = element.varegistas[i].precoNovo
+							menorIndex = i
+							primeira = false
+						}
+						if (element.varegistas[i].precoNovo < menorValor) {
+							menorValor = element.varegistas[i].precoNovo
+							menorIndex = i
+						}
+					}
+					return menorIndex
+				}
+
+				function removerFavoritos(id) {
+					let favoritos = JSON.parse(localStorage.getItem("favoritos"))
+					favoritos.forEach((currentValue, index, array) => {
+						if (currentValue.id == parseInt(id)) {
+							console.log("Remover", currentValue, index, array)
+							favoritos.splice(index, 1)
+							localStorage.setItem("favoritos", JSON.stringify(favoritos))
+						}
+					})
+					window.location.reload()
+				}
+			</script>
+			<style>
+				.card {
+					max-width: 800px;
+					margin: 0 auto;
+					margin-bottom: 50px;
+				}
+			</style>
+        </div>
+    </div>
+</body>
+</html>
