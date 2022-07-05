@@ -26,7 +26,7 @@ function entrarNaConta() {
     usuarios.forEach((element, index, array) => {
         if (element.email == email) {
             if (element.senha == senha) {
-                alert(`Bem vindo! ${element.usuario}`)
+                window.location = `/home.html?user=${element.usuario}`
             }
         }
     })
