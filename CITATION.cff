@@ -1,0 +1,44 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: T1-G3 - Comparação de preços (Best Option)
+authors:
+  - family-names: Eller Pereira Mendonça
+    given-names: André
+  - family-names: Peçanha Santiago
+    given-names: Gabriel
+  - family-names: Andrade Alves
+    given-names: Gustavo
+  - family-names: Santana Diniz
+    given-names: Henrique
+  - family-names: Baroni Neves
+    given-names: Pedro Henrique
+  - family-names: Lany Freitas Ferreira
+    given-names: Vitor
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Augusto Lara Soares
+    given-names: Felipe
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves de Oliveira
+    given-names: Jonathan
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Felipe Dias Ferreira da Rocha
+    given-names: Roberto    
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Assis Alves da Silva
+    given-names: Simone
+
+keywords:
+  - preço
+  - comparativo
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t1-g3-comparacao-de-precos
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14 
